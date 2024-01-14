@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CurrentNote</class>
+ <widget class="QDialog" name="CurrentNote">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>953</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #FFE4E1;</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>410</y>
+     <width>583</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFC0CB;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 8px;
+     border-color: beige;
+     font: bold 10px;
+     min-width: 10em;
+     padding: 6px;</string>
+      </property>
+      <property name="text">
+       <string>Просмотреть список целей</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="complited">
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFC0CB;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 8px;
+     border-color: beige;
+     font: bold 10px;
+     min-width: 10em;
+     padding: 6px;</string>
+      </property>
+      <property name="text">
+       <string>Выполнить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="change">
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFC0CB;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 8px;
+     border-color: beige;
+     font: bold 10px;
+     min-width: 10em;
+     padding: 6px;</string>
+      </property>
+      <property name="text">
+       <string>Редактировать</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="remove">
+      <property name="styleSheet">
+       <string notr="true">background-color: #FFC0CB;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 8px;
+     border-color: beige;
+     font: bold 10px;
+     min-width: 10em;
+     padding: 6px;</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>10</y>
+     <width>211</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget{
+font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color:#FFF5EE;
+alternate-background-color:#F5F5F5;
+}</string>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="dragDropMode">
+    <enum>QAbstractItemView::DragDrop</enum>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>false</bool>
+   </property>
+   <property name="sortingEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>491</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget{
+font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color:#FFF5EE;
+alternate-background-color:#F5F5F5;
+}</string>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustToContents</enum>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>10</y>
+     <width>211</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget{
+font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color:#FFF5EE;
+alternate-background-color:#F5F5F5;
+}</string>
+   </property>
+   <property name="horizontalScrollMode">
+    <enum>QAbstractItemView::ScrollPerItem</enum>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

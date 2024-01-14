@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HumanData</class>
+ <widget class="QDialog" name="HumanData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #FFE4E1;</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="1" column="1">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;
+</string>
+         </property>
+         <property name="text">
+          <string>Сохранить информацию о себе</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="aboutMe">
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;</string>
+         </property>
+         <property name="text">
+          <string>                                                                      О себе</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit">
+         <property name="styleSheet">
+          <string notr="true">border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #D8BFD8;
+    selection-background-color: darkgray;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="dateOfBrd">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;</string>
+             </property>
+             <property name="text">
+              <string>Дата рождения</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateEdit" name="dateEdit">
+             <property name="styleSheet">
+              <string notr="true">border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #D8BFD8;
+    selection-background-color: darkgray;</string>
+             </property>
+             <property name="currentSectionIndex">
+              <number>2</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLabel" name="first">
+               <property name="styleSheet">
+                <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;</string>
+               </property>
+               <property name="text">
+                <string>Имя</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="firstLine">
+               <property name="styleSheet">
+                <string notr="true">border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #D8BFD8;
+    selection-background-color: darkgray;</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="second">
+               <property name="styleSheet">
+                <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;</string>
+               </property>
+               <property name="text">
+                <string>Фамилия</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="secondLine">
+               <property name="styleSheet">
+                <string notr="true">border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #D8BFD8;
+    selection-background-color: darkgray;</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;
+</string>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Загрузить данные</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

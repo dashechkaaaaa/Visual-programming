@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Registration</class>
+ <widget class="QDialog" name="Registration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>385</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #FFE4E1;</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>170</y>
+     <width>184</width>
+     <height>86</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="loginReg">
+          <property name="styleSheet">
+           <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;</string>
+          </property>
+          <property name="text">
+           <string>Логин  </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="loginlineReg">
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #D8BFD8;
+    selection-background-color: darkgray;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="passReg">
+          <property name="styleSheet">
+           <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;</string>
+          </property>
+          <property name="text">
+           <string>Пароль</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="passlineReg">
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #D8BFD8;
+    selection-background-color: darkgray;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="save">
+        <property name="styleSheet">
+         <string notr="true">font: 75 10pt &quot;Palatino Linotype&quot;;
+background-color: #FFC0CB;
+</string>
+        </property>
+        <property name="text">
+         <string>Зарегистрироваться</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
